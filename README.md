@@ -1,28 +1,3 @@
-1. What is an Event in Event-Driven Architecture?
-
-An event is a significant change in the state of a system that is captured and communicated to other components for further action. Events represent something that has already happened.
-
-Real-world Example (Outside Technology)
-
-Imagine a birthday party:
-
-Event: A guest arrives.
-
-Producers: Guests (they generate the "Guest Arrived" event).
-
-Consumers: The host (welcomes the guest), the photographer (takes a picture), and the caterer (serves drinks).
-Here, multiple actions (reactions) are triggered by a single event (arrival of a guest).
-
-2. EDA vs Request–Response Architecture
-Event-Driven Architecture (EDA)
-
-Flow: Producers publish events; consumers subscribe and react to them asynchronously.
-
-Communication: Asynchronous and loosely coupled.
-
-Advantages:
-
-Highly scalable – components can process events independently.
 
 ## 1. What is an Event in Event-Driven Architecture?
 
